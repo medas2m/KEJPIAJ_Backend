@@ -1,0 +1,28 @@
+@"
+# dependencies
+node_modules/
+**/node_modules/
+
+# env & secrets
+.env
+**/.env
+.env.*.local
+
+../backend_020925.zip
+../restify.zip
+
+# logs
+logs/
+*.log
+
+# builds / coverage
+dist/
+build/
+coverage/
+
+# editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
+
